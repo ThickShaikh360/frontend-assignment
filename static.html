@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>YAY! It's BOGO</h1>
+        </div>
+
+        <div class="content">
+            <!-- Option 1 - 1 Unit-->
+            <div class="option" onclick="selectOption(1)">
+                <div class="option-header">
+                    <div class="radio" id="radio1"></div>
+                    <div class="unit-info">
+                        <span class="unit-count">1 Unit</span>
+                        <span class="discount-badge">10% Off</span>
+                        <div class="standard-price">Standard Price</div>
+                    </div>
+                    <div class="price-info">
+                        <div class="current-price">$10.00 USD</div>
+                        <div class="original-price">$24.00 USD</div>
+                    </div>
+                </div>
+                
+                <div class="customization">
+                    <div class="custom-field">
+                        <div class="custom-label">Size</div>
+                        <select class="custom-select">
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                            <option>XL</option>
+                        </select>
+                    </div>
+                    <div class="custom-field">
+                        <div class="custom-label">Colour</div>
+                        <select class="custom-select">
+                            <option>Black</option>
+                            <option>White</option>
+                            <option>Blue</option>
+                            <option>Red</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Option 2 - Most Popular -->
+            <div class="option popular" onclick="selectOption(2)">
+                <div class="popular-badge">MOST POPULAR</div>
+                <div class="option-header">
+                    <div class="radio" id="radio2"></div>
+                    <div class="unit-info">
+                        <span class="unit-count">2 Units</span>
+                        <span class="discount-badge">20% Off</span>
+                    </div>
+                    <div class="price-info">
+                        <div class="current-price">$18.00 USD</div>
+                        <div class="original-price">$24.00 USD</div>
+                    </div>
+                </div>
+                
+                <div class="customization">
+                    <div class="custom-field">
+                        <div class="custom-label">Size</div>
+                            <div style="display: flex; align-items: center;">
+                                <span style="margin-right: 10px; font-weight: bold;">#1</span>
+                            <select class="custom-select">
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="custom-field">
+                        <div class="custom-label">Colour</div>
+                        <select class="custom-select">
+                            <option>Black</option>
+                            <option>White</option>
+                            <option>Blue</option>
+                            <option>Red</option>
+                        </select>
+                    </div>
+                    <div class="custom-field">
+                        <div class="custom-label">Size</div>
+                        <div style="display: flex; align-items: center;">
+                            <span style="margin-right: 10px; font-weight: bold;">#2</span>
+                            <select class="custom-select">
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="custom-field">
+                        <div class="custom-label">Colour</div>
+                        <select class="custom-select">
+                            <option>Colour</option>
+                            <option>Black</option>
+                            <option>White</option>
+                            <option>Blue</option>
+                            <option>Red</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Option 3 - 3 units -->
+            <div class="option" onclick="selectOption(3)">
+                <div class="option-header">
+                    <div class="radio" id="radio3"></div>
+                    <div class="unit-info">
+                        <span class="unit-count">3 Units</span>
+                        <span class="discount-badge">30% Off</span>
+                    </div>
+                    <div class="price-info">
+                        <div class="current-price">$24.00 USD</div>
+                        <div class="original-price">$24.00 USD</div>
+                    </div>
+                </div>
+                
+                <div class="customization">
+                    <div class="custom-field">
+                        <div class="custom-label">Size</div>
+                        <div style="display: flex; align-items: center;">
+                            <span style="margin-right: 10px; font-weight: bold;">#1</span>
+                            <select class="custom-select">
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="custom-field">
+                        <div class="custom-label">Colour</div>
+                        <select class="custom-select">
+                            <option>Black</option>
+                            <option>White</option>
+                            <option>Blue</option>
+                            <option>Red</option>
+                        </select>
+                    </div>
+                    <div class="custom-field">
+                        <div class="custom-label">Size</div>
+                        <div style="display: flex; align-items: center;">
+                            <span style="margin-right: 10px; font-weight: bold;">#2</span>
+                            <select class="custom-select">
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="custom-field">
+                        <div class="custom-label">Colour</div>
+                        <select class="custom-select">
+                            <option>Colour</option>
+                            <option>Black</option>
+                            <option>White</option>
+                            <option>Blue</option>
+                            <option>Red</option>
+                        </select>
+                    </div>
+                    <div class="custom-field">
+                        <div class="custom-label">Size</div>
+                        <div style="display: flex; align-items: center;">
+                            <span style="margin-right: 10px; font-weight: bold;">#3</span>
+                            <select class="custom-select">
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="custom-field">
+                        <div class="custom-label">Colour</div>
+                        <select class="custom-select">
+                            <option>Colour</option>
+                            <option>Black</option>
+                            <option>White</option>
+                            <option>Blue</option>
+                            <option>Red</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="delivery-total">
+                <div class="free-delivery">Free Delivery</div>
+                <div class="total-price">Total : $18.00 USD</div>
+            </div>
+
+            <button class="add-to-cart">
+                <span style="font-size: 20px;">+</span>
+                Add to Cart
+            </button>
+
+            <div class="powered-by">@ Powered by Pumper</div>
+        </div>
+    </div>
+
+    <script src="script.js"> </script>
+</body>
+</html>
